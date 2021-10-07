@@ -4,13 +4,15 @@ import javax.persistence.EntityManager;
 
 public class ContaRepository {
 
-    // Efetuando a conexão com o BD
     private EntityManager entityManager = Conexao.getConexao();
 
-    public double consultarSaldo(){
+
+    public double consultarSaldo() {
         return 0;
     }
 
     public void inserirDeposito(){
     }
+
+
 }
